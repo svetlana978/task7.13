@@ -158,10 +158,20 @@ h1 {
     text-align: center;
 }
 
+.skills_descript-item {
+    position: relative;
+    width: 350px;
+    min-height: 43px;
+    margin-bottom: -4px;
+    border-bottom: 4px solid #000e8bc4;
+    color: rgb(146, 146, 146);
+}
+
 #rectangle {
     width: 445px;
     height: 4px;
     background: #a0a0a0;
+    margin-bottom: 30px;
 }
 
 .section_fourth {
@@ -195,6 +205,27 @@ h1 {
     background-color: #EEEFF1;
 }
 
+.decor_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    position: relative;
+}
+
+.blue {
+    position: absolute;
+    background-color: rgba(52, 84, 122, 0.8);
+    left: 480px;
+}
+
+.dec_img_view {
+    position: absolute;
+    left: 670px;
+    top: 211px;
+    width: 100px;
+    height: 57px;
+}
+
 .dec_img {
     width: 480px;
     height: 480px;
@@ -224,6 +255,10 @@ h1 {
     background-color: #EEEFF1;
 }
 
+.web_site p {
+    margin-bottom: 0;
+}
+
 .feedback {
     margin-bottom: 50px;
     margin-top: 0;
@@ -248,7 +283,8 @@ h1 {
 .message {
     width: 540px;
     height: 175px;
-    display: flex;
+    padding-left: 15px;
+    padding-top: 13px;
 }
 
 .button_send {
